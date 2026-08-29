@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print de boas-vindas
-        run: echo "Hello World!"
+        run: |
+          echo "Hello World!"
+          echo "Seja bem-vindos"
       - name: Print de despedida
         run: echo  "Done - Bye!" 

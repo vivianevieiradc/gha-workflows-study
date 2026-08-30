@@ -8,9 +8,9 @@ jobs:
         uses: actions/checkout@v5
       
       - name: Upload código
-        uses: actions/upload-artifact@v8
+        uses: actions/upload-artifact@v4
         with: 
-          patch: .
+          path: .
 
       - name: Download do código
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v4

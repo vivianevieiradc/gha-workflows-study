@@ -9,6 +9,8 @@ jobs:
       
       - name: Upload código
         uses: actions/upload-artifact@v3
+        with: 
+          patch: .
 
       - name: Download do código
         uses: actions/download-artifact@v3

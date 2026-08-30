@@ -10,14 +10,3 @@ jobs:
         uses: actions/download-artifact@v8
       - name: Upload código
         uses: actions/upload-artifact@v7
-
-
-
-
-
-
-
-  
-		
-		
-

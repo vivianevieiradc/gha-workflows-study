@@ -1,0 +1,13 @@
+name: variables
+on: workflow_dispatch
+env:
+  aws_region: us-east-1
+  ambiente: production
+jobs:
+  echo:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: exibir variavel
+        run: |
+         echo $aws_region 
+         echo $ambiente

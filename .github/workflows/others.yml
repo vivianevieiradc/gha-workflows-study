@@ -11,4 +11,5 @@ jobs:
           nome: andressa
           sobrenome: stefany
         run: | 
-          echo $nome & $sobrenome
+          echo $nome 
+          echo $sobrenome

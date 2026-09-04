@@ -14,10 +14,13 @@ jobs:
       run: ls -l
     - name: Espaço em disco atual
       run: df -h    
-    - name: Criando arquivo no job atual 
-      run: touch cat.txt
+    - name: Criando arquivo no job atual e listando 
+      run: | 
+        touch cat.txt
+        ls -l
   list-archive:
     runs-on: ubuntu-latest
+    needs: investigate-os
     steps:
-    - name: listando arquivo 
+    - name: Listando arquivo em outro Job
       run: ls -l 

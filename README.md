@@ -74,29 +74,6 @@ Arquivo: [.github/workflows/ga-03-triggers.yml](.github/workflows/ga-03-triggers
 
 ---
 
-## 🧠 Conceitos estudados
-
-### Workflow
-É um arquivo YAML dentro de `.github/workflows` que define a automação.
-
-### Job
-Um job representa um conjunto de passos executados em um runner.
-
-### Step
-Cada step é uma etapa da execução, como executar um comando shell ou usar uma ação do marketplace.
-
-### Runner
-É o ambiente de execução do job. Neste projeto, o runner usado foi `ubuntu-latest`.
-
-### Eventos
-São gatilhos que iniciam o workflow, como:
-
-- `push`
-- `pull_request`
-- `workflow_dispatch`
-
----
-
 ## ▶️ Como executar
 
 1. Acesse o GitHub e abra o repositório.

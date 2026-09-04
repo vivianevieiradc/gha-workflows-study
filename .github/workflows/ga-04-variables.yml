@@ -1,0 +1,19 @@
+name: 🔧 GA-04 — Variáveis
+
+on: workflow_dispatch
+
+env:
+  ambiente: development
+
+jobs: 
+  variavies: 
+    runs-on: ubuntu-latest
+    env: 
+      ambiente: staging
+      run: echo "$ambiente"
+    steps: 
+      - name: Variável a nível de step 
+          env: 
+            ambiente: production
+            run: echo "$ambiente"
+ 

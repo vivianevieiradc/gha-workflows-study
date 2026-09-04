@@ -1,4 +1,4 @@
-name: GA-01 First Workflow
+name: 🚀 GA-01 First Workflow
 on: workflow_dispatch
 jobs: 
   print-messages:

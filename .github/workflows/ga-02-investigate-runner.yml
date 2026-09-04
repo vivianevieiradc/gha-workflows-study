@@ -1,0 +1,23 @@
+name: 🔍 GA-02 — Investigar Runner
+on: workflow_dispatch
+jobs: 
+  investigate-os:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Usuário atual
+      run: whoami
+    - name: Diretorio atual
+      run: pwd
+    - name: Sistema operacional atual
+      run: lsb_release -a 
+    - name: Arquivos disponiveis
+      run: ls -l
+    - name: Espaço em disco atual
+      run: df -h    
+    - name: Criando arquivo no job atual 
+      run: touch cat.txt
+  list-archive:
+    runs-on: ubuntu-latest
+    steps:
+    - name: listando arquivo 
+      run: ls -l 

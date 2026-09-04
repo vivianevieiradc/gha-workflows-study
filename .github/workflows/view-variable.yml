@@ -1,4 +1,4 @@
-name: variables
+name: Variables
 on: workflow_dispatch
 env:
   aws_region: us-east-1

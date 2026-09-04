@@ -5,8 +5,7 @@ env:
 jobs: 
   variavies: 
     runs-on: ubuntu-latest
-    env: 
-      ambiente: staging
+
     steps: 
       - name: Variável a nível de job
         run: echo "$ambiente"

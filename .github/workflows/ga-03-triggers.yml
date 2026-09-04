@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Evento disparado por triggers
-        run: echo "evento disparado por ${{github.event_name}}"
+        run: echo " ✅ Evento disparado por ${{github.event_name}}"

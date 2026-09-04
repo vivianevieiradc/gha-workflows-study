@@ -1,0 +1,14 @@
+name: teste
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: step 1
+        run: echo "teste"
+      - name: step 2
+        env:
+          nome: andressa
+          sobrenome: stefany
+        run: | 
+          echo $nome & $sobrenome
